@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>CPS Estacionamento - Erro</title>
+
+    <!-- Mesma fonte limpa e moderna -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: 'Inter', sans-serif;
+        }
+
+        body {
+            background-color: #f3f4f6;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            color: #1f2937;
+        }
+
+        .error-card {
+            background-color: #ffffff;
+            width: 100%;
+            max-width: 400px;
+            padding: 40px 30px;
+            border-radius: 12px;
+            box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.05), 0 8px 10px -6px rgba(0, 0, 0, 0.01);
+            text-align: center;
+        }
+
+        .error-icon {
+            font-size: 50px;
+            margin-bottom: 15px;
+        }
+
+        .error-card h1 {
+            font-size: 22px;
+            font-weight: 600;
+            color: #111827;
+            margin-bottom: 10px;
+        }
+
+        .error-card p {
+            font-size: 15px;
+            color: #4b5563;
+            line-height: 1.5;
+            margin-bottom: 25px;
+        }
+
+        .btn-back {
+            display: block;
+            width: 100%;
+            padding: 14px;
+            background-color: #ef4444; /* Vermelho suave para indicar erro */
+            color: #ffffff;
+            font-size: 15px;
+            font-weight: 600;
+            text-decoration: none;
+            border-radius: 8px;
+            transition: background-color 0.2s;
+        }
+
+        .btn-back:hover {
+            background-color: #dc2626; /* Vermelho mais escuro no hover */
+        }
+    </style>
+</head>
+<body>
+
+<div class="error-card">
+    <div class="error-icon">⚠️</div>
+    <h1>Falha no Login</h1>
+    <p>E-mail ou senha incorretos. Por favor, verifique seus dados e tente novamente.</p>
+    <a href="/" class="btn-back">Tentar Novamente</a>
+</div>
+
+</body>
+</html>
